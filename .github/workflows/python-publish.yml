@@ -1,8 +1,8 @@
 name: My Deploy
 
 on:
-  pull_request:
-    branches: [ main ]
+  push:
+    branches: [ DEV ]
 
 jobs:
   build:
